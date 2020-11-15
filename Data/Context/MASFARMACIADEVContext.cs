@@ -38,7 +38,7 @@ namespace ProductsAPI.Data.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-C8RGQSH\\SQLEXPRESS;Initial Catalog=MAS-FARMACIA-DEV;Trusted_Connection=True");
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\servidor;Initial Catalog=MAS-FARMACIA-DEV;Trusted_Connection=True");
             }
         }
 
